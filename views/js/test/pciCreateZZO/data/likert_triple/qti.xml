@@ -13,7 +13,7 @@
         <p>This is a sample PCI.</p>
         
         <customInteraction responseIdentifier="likert1">
-            <pci:portableCustomInteraction customInteractionTypeIdentifier="pciSampleA" hook="pciSampleA/runtime/pciSampleA.js">
+            <pci:portableCustomInteraction customInteractionTypeIdentifier="pciCreateZZO" hook="pciCreateZZO/runtime/pciCreateZZO.js">
 
                 <pci:responseSchema href="http://imsglobal.org/schema/json/v1.0/response.json"/>
                 
@@ -24,7 +24,7 @@
                 <pci:properties></pci:properties>
 
                 <pci:markup>
-                    <html5:div class="pciSampleA">
+                    <html5:div class="pciCreateZZO">
                         Hello World
                     </html5:div>
                 </pci:markup>
@@ -35,3 +35,4 @@
     </itemBody>
     
 </assessmentItem>
+

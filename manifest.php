@@ -24,7 +24,7 @@ return array(
 	'label' => 'QTI PCI for training iskawata',
 	'description' => '',
     'license' => 'GPL-2.0',
-    'version' => '0.1.0',
+    'version' => '0.2.0',
 	'author' => 'Open Assessment Technologies',
 	'requires' => array(
 	    'qtiItemPci' => '>=1.1.0',
@@ -36,6 +36,7 @@ return array(
     ),
     'install' => array(
         'php'	=> array(
+            RegisterPciCreateZZO::class
 		)
     ),
     'update' => 'iskawata\\kwt001pci\\scripts\\update\\Updater',
