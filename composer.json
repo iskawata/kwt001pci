@@ -18,7 +18,7 @@
         "GPL-2.0"
     ],
     "extra" : {
-        "tao-extension-name" : "trainingPci"
+        "tao-extension-name" : "kwt001pci"
     },
     "minimum-stability" : "dev",
     "require": {
@@ -26,7 +26,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "oat\\trainingPci\\" : ""
+            "oat\\kwt001pci\\" : ""
         }
     } 
 }

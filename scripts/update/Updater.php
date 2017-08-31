@@ -19,7 +19,7 @@
  *
  */
 
-namespace oat\trainingPci\scripts\update;
+namespace oat\kwt001pci\scripts\update;
 
 class Updater extends \common_ext_ExtensionUpdater
 {
