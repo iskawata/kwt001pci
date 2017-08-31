@@ -18,6 +18,7 @@
  *
  *
  */
+use oat\kwt001pci\scripts\install\RegisterPciCreateZZO;
 
 return array(
     'name' => 'kwt001pci',
@@ -39,12 +40,12 @@ return array(
             RegisterPciCreateZZO::class
 		)
     ),
-    'update' => 'iskawata\\kwt001pci\\scripts\\update\\Updater',
+    'update' => 'oat\\kwt001pci\\scripts\\update\\Updater',
     'uninstall' => array(
     ),
     'autoload' => array (
         'psr-4' => array(
-            'iskawata\\kwt001pci\\' => dirname(__FILE__).DIRECTORY_SEPARATOR
+            'oat\\kwt001pci\\' => dirname(__FILE__).DIRECTORY_SEPARATOR
         )
     ),
     'routes' => array(

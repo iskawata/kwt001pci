@@ -20,6 +20,7 @@
  */
 
 namespace oat\kwt001pci\scripts\update;
+use oat\kwt001pci\scripts\install\RegisterPciCreateZZO;
 
 class Updater extends \common_ext_ExtensionUpdater
 {
