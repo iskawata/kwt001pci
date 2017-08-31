@@ -8,7 +8,7 @@ To get this extension in your TAO installation, modify your root composer.json a
     ...,
     {
        "type": "vcs",
-       "url": "https://github.com/oat-sa/training-pci.git"
+       "url": "https://github.com/iskawata/kwt001pci.git"
     }
 ],
 
@@ -18,7 +18,7 @@ To get this extension in your TAO installation, modify your root composer.json a
 ```
 require" : {
     ...,
-    "oat-sa/training-pci": "dev-develop"
+    "iskawata/kwt001pci": "dev-develop"
 ],
 
 ```

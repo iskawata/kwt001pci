@@ -21,7 +21,7 @@
 
 return array(
     'name' => 'kwt001pci',
-	'label' => 'QTI PCI for training',
+	'label' => 'QTI PCI for training iskawata',
 	'description' => '',
     'license' => 'GPL-2.0',
     'version' => '0.1.0',
@@ -38,16 +38,16 @@ return array(
         'php'	=> array(
 		)
     ),
-    'update' => 'oat\\kwt001pci\\scripts\\update\\Updater',
+    'update' => 'iskawata\\kwt001pci\\scripts\\update\\Updater',
     'uninstall' => array(
     ),
     'autoload' => array (
         'psr-4' => array(
-            'oat\\kwt001pci\\' => dirname(__FILE__).DIRECTORY_SEPARATOR
+            'iskawata\\kwt001pci\\' => dirname(__FILE__).DIRECTORY_SEPARATOR
         )
     ),
     'routes' => array(
-        '/kwt001pci' => 'oat\\kwt001pci\\controller'
+        '/kwt001pci' => 'iskawata\\kwt001pci\\controller'
     ),
 	'constants' => array(
 	    # views directory
