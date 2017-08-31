@@ -18,18 +18,18 @@
  */
 define([
     'taoQtiItem/qtiCreator/widgets/interactions/customInteraction/Widget',
-    'pciSampleA/creator/widget/states/states'
+    'pciCreateZZO/creator/widget/states/states'
 ], function(Widget, states){
     'use strict';
 
-    var pciSampleAWidget = Widget.clone();
+    var pciCreateZZOWidget = Widget.clone();
 
-    pciSampleAWidget.initCreator = function(){
+    pciCreateZZOWidget.initCreator = function(){
 
         this.registerStates(states);
 
         Widget.initCreator.call(this);
     };
     
-    return pciSampleAWidget;
+    return pciCreateZZOWidget;
 });
