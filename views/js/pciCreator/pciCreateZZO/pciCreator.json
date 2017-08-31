@@ -1,0 +1,31 @@
+{
+    "typeIdentifier": "pciCreateZZO",
+    "label": "Likert Scale Sample",
+    "short": "Sample A",
+    "description": "A simple implementation of likert scale for PCI training purpose.",
+    "version": "0.1.0",
+    "author": "H Kawata",
+    "email": "kawata@infosign.co.jp",
+    "tags": [
+        "mcq",
+        "likert"
+    ],
+    "response": {
+        "baseType": "integer",
+        "cardinality": "single"
+    },
+    "runtime" : {
+        "hook" : "./runtime/pciCreateZZO.js"
+    },
+    "creator" : {
+        "icon": "./creator/img/icon.svg",
+        "hook": "./pciCreator.js",
+        "libraries" : [
+            "./creator/tpl/markup.tpl",
+            "./creator/tpl/propertiesForm.tpl",
+            "./creator/widget/Widget.js",
+            "./creator/widget/states/Question.js",
+            "./creator/widget/states/states.js"
+        ]
+    }
+}
